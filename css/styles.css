@@ -221,3 +221,40 @@ section.your-active-class .landing__container::after {
 		           rotate(-360deg);
 	}
 }
+
+#back-to-top {
+
+    display: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 38px;
+    color: white;
+
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    float: left;
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+    z-index: 900;
+}
+
+.fa {
+    display: inline-block;
+    height: 100%;
+    padding-top: 11px;
+    font-size: inherit;
+    text-rendering: auto;
+}
